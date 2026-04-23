@@ -17,13 +17,16 @@ nav {
 }
 nav a {
   color: rgb(35, 4, 59);
-  text-decoration: none;
+  text-decoration-color: azure;
   margin: 10px;
 }
-
+nav a:hover {
+  text-emphasis-position: inherit;
+}
 main {
   padding: 20px;
 }
 section {
-  margin-bottom: 30px;
-}
+  margin: 30px;
+  padding: 15;
+  border: 1px solid #CCC;
